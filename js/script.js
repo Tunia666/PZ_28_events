@@ -41,10 +41,9 @@ form.addEventListener("submit", (event) => {
 
   input.value = "";
   preview.textContent = "Здесь появится ваша задача";
-  message.textContent = "";
-
   alert("Задача добавлена!");
 });
+
 
 
   // TODO 3. Создайте li: const item = document.createElement("li");
